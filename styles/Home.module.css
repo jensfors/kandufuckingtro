@@ -78,6 +78,9 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: x-large;
 }
 
 .center::before {
@@ -97,7 +100,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +128,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
