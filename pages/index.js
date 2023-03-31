@@ -16,7 +16,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.center}>
-          <h1>DU KAN FUCKING TRO DET ER FREDAG 🎉</h1>
+          <h1>
+            DU KAN FUCKING TRO DET ER FREDAG{" "}
+            <span style={{ fontSize: "120px" }}>🍻</span>
+          </h1>
         </div>
       </main>
     </>
